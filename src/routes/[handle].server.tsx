@@ -1,13 +1,13 @@
 import {Seo, type HydrogenRouteProps} from '@shopify/hydrogen';
 import clsx from 'clsx';
 import groq from 'groq';
-import Layout from '../../components/global/Layout.server';
-import NotFound from '../../components/global/NotFound.server';
-import PageHero from '../../components/heroes/Page.server';
-import PortableText from '../../components/portableText/PortableText.server';
-import {PAGE} from '../../fragments/sanity/pages/page';
-import useSanityQuery from '../../hooks/useSanityQuery';
-import type {SanityPage} from '../../types';
+import Layout from '../components/global/Layout.server';
+import NotFound from '../components/global/NotFound.server';
+import PageHero from '../components/heroes/Page.server';
+import PortableText from '../components/portableText/PortableText.server';
+import {PAGE} from '../fragments/sanity/pages/page';
+import useSanityQuery from '../hooks/useSanityQuery';
+import type {SanityPage} from '../types';
 
 // This demo doesn't use Shopify Online Store pages.
 // For this reason we don't use Shopify Analytics here.

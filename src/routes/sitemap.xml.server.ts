@@ -136,7 +136,7 @@ const QUERY_SANITY = groq`
   ] {
     _updatedAt,
     "imageUrl": seo.image.asset->url,
-    "url": $baseUrl + "/pages/" + slug.current,
+    "url": $baseUrl + slug.current,
   },
   "products": *[
     _type == 'product'
