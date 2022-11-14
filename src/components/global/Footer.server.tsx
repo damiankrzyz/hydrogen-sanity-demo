@@ -8,7 +8,6 @@ import useSanityQuery from '../../hooks/useSanityQuery';
 import type {SanityLink} from '../../types';
 import LogoIcon from '../icons/Logo';
 import PortableText from '../portableText/PortableText.server';
-import SanityFooter from './SanityFooter.server';
 
 /**
  * A server component that specifies the content of the footer on the website
