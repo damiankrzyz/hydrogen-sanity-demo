@@ -30,6 +30,7 @@
     "vite": "^2.9.13"
   },
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0",
     "@headlessui/react": "^1.6.4",
     "@hookform/resolvers": "^2.9.7",
     "@sanity/block-content-to-react": "^3.0.0",

@@ -1,0 +1,19 @@
+name = "nanshy-sanity"
+type = "javascript"
+account_id = "a7d2e9bfc64f42e14046c3637ffe305c"
+workers_dev = true
+compatibility_date = "2022-01-28"
+compatibility_flags = ["streams_enable_constructors"]
+main = "dist/worker/index.js"
+[env.production]
+route = "new.nanshy.com/*"
+
+[site]
+bucket = "dist/client"
+
+[env.production.vars]
+PUBLIC_STOREFRONT_API_TOKEN = '7899055df1ddeecb2b82028b737ebb0e'
+PUBLIC_STORE_DOMAIN = 'nanshyuk.myshopify.com'
+
+[build]
+command = "yarn && yarn build"
